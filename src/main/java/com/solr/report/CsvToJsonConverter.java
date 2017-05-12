@@ -1,4 +1,4 @@
-package com.walmart.hyperloop.report;
+package com.solr.report;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,8 +12,7 @@ import java.util.Map;
 
 public class CsvToJsonConverter {
 	
-	private static String filePath; //= "/Users/vn0d8d4/workspace/newScalaPractice/ReadHeaderAndCommitToSolr/sla_solrHeader.csv";
-	
+	private static String filePath; 
 	public static void main(String[] args){
 		getInput(args);
 		CsvToJsonConverter reader = new CsvToJsonConverter();

@@ -1,4 +1,4 @@
-package com.walmart.hyperloop.report;
+package com.solr.report;
 
 import java.io.IOException;
 import java.time.ZoneOffset;
@@ -17,9 +17,7 @@ import org.apache.solr.common.SolrInputDocument;
  */
 public class SolrProducer 
 {
-	//private final static String ZK_STRING = "10.65.5.135:9181,10.65.5.137:9181,10.65.5.138:9181/Solr_non_prod";
-	private final static String ZK_STRING = "dal-appblx096-04.prod.walmart.com:2181,dal-appblx071-17.prod.walmart.com:2181,dal-appblx071-18.prod.walmart.com:2181";
-	//private final static String ZK_STRING = "10.65.133.124:2181,10.65.133.125:2181,10.65.133.126:2181/solr6";
+	private final static String ZK_STRING = "localhost:2181";
 	private static final String SOLR_FIELD_PREFIX = "i_";
 
 	public static void main( String[] args ) {

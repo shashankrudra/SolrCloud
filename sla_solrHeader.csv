@@ -1,6 +1,2 @@
-feed_type,percentage_feeds_violating_sla,sla_seconds,total_feeds_scanned,mean_processing_time_seconds,95th_percentile_seconds,99th_percentile_seconds,number_feeds_having_items_less_than_recommended_count,number_feeds_having_items_more_than_recommended_count,number_feeds_containing_1_item,percentage_feeds_with_100_items_or_less,percentage_feeds_with_recommended_count_or_less
-Uncategorized Item,0.0,18000,103434,265.94,1813.0,2482.0,103434,0,103434,100.0,100.0
-Content Product,0.0,18000,398,668.07,3115.05,7213.31,398,0,98,93.22,100.0
-Supplier Full Item,7.4,18000,21730,12489.47,117250.3,263600.69,21604,126,20838,99.25,99.42
-Item,0.08,18000,185561,1911.66,5068.0,7762.76,162357,23204,24786,55.77,87.5
-Rich Media,0.0,18000,209,1123.88,3649.0,6901.8,194,15,65,66.51,92.82
+name,address
+sanjay,indore
